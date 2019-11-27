@@ -1,0 +1,20 @@
+<ul>
+    <li><a routerLink="/User/1">1</a></li>
+    <li><a routerLink="/User/2">2</a></li>
+    <li><a routerLink='/User/3'>3</a></li>
+</ul>
+
+
+
+<table *ngIf="User" border="1">
+        <tr>
+                <th>name</th>
+                <th>username</th>
+                <th>email</th>
+            </tr>
+    <tr>
+        <td>{{User["name"]}}</td>
+        <td>{{User["username"]}}</td>
+        <td>{{User["email"]}}</td>
+    </tr>
+</table>

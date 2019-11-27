@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { LoinGateServService } from './servises/loin-gate-serv.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'rawtar';
+  constructor(public svslo:LoinGateServService){
+
+  }
+
 }
