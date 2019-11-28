@@ -1,0 +1,16 @@
+<p>tabl works!</p>
+
+<table border="1">
+    <tr>
+        <th>name</th>
+        <th>birthyear</th>
+        <th>egaByFunc</th>
+        <th>egaByPape</th>
+    </tr>
+    <tr *ngFor="let p of pupil">
+        <td dd>{{p.name}}</td>
+        <td>{{p.age}}</td>
+        <td>{{corectyaer(p.age)}}</td>
+        <td>{{p.age | year}}</td>
+    </tr>
+</table>
